@@ -1,0 +1,24 @@
+{
+  "name": "chikkibarv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamDesai333/ChikkiBarV2.git"
+  },
+  "author": "Samidh Desai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamDesai333/ChikkiBarV2/issues"
+  },
+  "homepage": "https://github.com/SamDesai333/ChikkiBarV2#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7"
+  }
+}
