@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+/*
+*NavBar Image Hover
+*/
+.slider{
+    -webkit-transition: 0.1s ease;
+}
+.slider:hover{
+    transform: scale(1.1);
+}
+/*
+*Jumbotron
+*/
+.jumbotron{
+    position: relative;
+    margin-bottom: 0px;
+    background-image: url("../images/woodenTable.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+.jumboHR{
+    width: 100px;
+}
+.btn-lg{
+    background-color: #00B3D6;
+    border-color: #00B3D6;
+    position: relative;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+
+}
+.btn-lg:hover{
+    background-color: #ADD057;
+    border-color: #ADD057
+}
+@media screen and (max-width: 1024px) { 
+    .jumbotron {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    padding-top:100px; 
+}
+.logo{
+    -webkit-transition: 0.1s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) { 
+    .logo{
+        padding-top: 140px;
+        width: 400px;
+        height: auto;
+    }
+}
+h1{
+    font-size: 45px;
+}
