@@ -73,3 +73,22 @@ body {
 h1{
     font-size: 45px;
 }
+
+.ingredients:hover{
+    transform: scale(1.1);
+}
+.ingredients{
+    -webkit-transition: 0.1s ease;
+}
+/*
+*Paralax
+*/
+.paralax{
+    height: 300px;
+    background-image: url("../images/ChikkiSlider2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
