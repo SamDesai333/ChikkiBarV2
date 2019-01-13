@@ -40,7 +40,20 @@ body {
     margin: 0 auto;
 
 }
+.btn-md{
+    background-color: #00B3D6;
+    border-color: #00B3D6;
+    position: relative;
+    /* text-align: center; */
+    display:block;
+    margin: 0 auto;
+
+}
 .btn-lg:hover{
+    background-color: #ADD057;
+    border-color: #ADD057
+}
+.btn-md:hover{
     background-color: #ADD057;
     border-color: #ADD057
 }
@@ -73,6 +86,9 @@ body {
 h1{
     font-size: 45px;
 }
+.mission{
+    color: #EA405C;
+}
 
 .ingredients:hover{
     transform: scale(1.1);
@@ -91,4 +107,26 @@ h1{
     background-attachment: fixed;
     background-size: cover;
 
+}
+/*
+*Variety
+*/
+.bar:hover{
+    transform: scale(1.2);
+}
+.bar{
+    -webkit-transition: 0.1s ease;
+}
+/*
+*Footer
+*/
+.chikkiFooter{
+    text-align: center;
+    background-color: #F8F9FA;
+    padding:20px;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    color: black;    
+    font-size: 12px;
 }
