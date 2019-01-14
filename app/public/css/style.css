@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+
 }
 /*
 *NavBar Image Hover
@@ -109,6 +110,37 @@ h1{
 
 }
 /*
+*Young
+*/
+
+.youngEntrpreneur{
+    background-color: #282e34;
+}
+.mohnish{
+    height: 220px;
+    width: auto;
+    -webkit-transition: 0.1s ease;
+}
+.mohnish:hover{
+    transform: scale(1.1);
+}
+.youngH2{
+    color: #fff;
+}
+.youngP{
+    color: #fff;
+    padding-left:300px;
+    padding-right:300px;
+}
+@media screen and (max-width: 800px) { 
+    .youngP{
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+}
+
+/*
 *Variety
 */
 .bar:hover{
@@ -129,4 +161,19 @@ h1{
     width: 100%;
     color: black;    
     font-size: 12px;
+}
+/*
+*contact
+*/
+.section1{
+    margin-bottom: 0;
+    padding:30px;
+    padding-left:70px;
+    padding-right:70px;
+    position: relative;
+    background-color: #ddd;
+    text-align: center;
+    color: rgb(29, 28, 28);
+    letter-spacing: 1px;
+
 }
