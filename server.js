@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.use(express.static("app/public"));
 
-// require("./app/routes/htmlRoutes")(app)
+require("./app/routes/htmlRoutes")(app)
 
 app.listen(PORT, function(){
     console.log("App Listening on PORT: " + PORT);
