@@ -2,7 +2,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-
+    font-family: 'Montserrat', sans-serif;
 }
 /*
 *NavBar Image Hover
@@ -32,6 +32,9 @@ body {
 .jumboHR{
     width: 100px;
 }
+#carousel{
+    height: 100px;
+}
 .btn-lg{
     background-color: #00B3D6;
     border-color: #00B3D6;
@@ -49,6 +52,15 @@ body {
     display:block;
     margin: 0 auto;
 
+}
+.jaggeryBTN{
+    border: white;
+    background-color: white;
+    color: black;
+}
+.jaggeryBTN:hover{
+    background-color: #ADD057;
+    border-color: #ADD057
 }
 .btn-lg:hover{
     background-color: #ADD057;

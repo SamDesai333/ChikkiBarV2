@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--icons-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
     <body>
         <!--Navbar-->
@@ -40,8 +42,9 @@
         <!--jumbotron-->
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
-              <img class="logo img-fluid" src="images/ChikkibarV2FullBar.png" alt="Chikkibar Logo" height="auto" width="600px">
+              <img class="logo img-fluid" src="images/NewChikkiBarLogo.png" alt="Chikkibar Logo" height="auto" width="600px">
               <hr class="jumboHR">
+              <button type="button" href="index.html" class="btn btn-primary btn-lg" onclick="location.href='';">ORDER NOW</button>
           </div>
         </div>
         <div class="container text-center pt-4">
@@ -53,41 +56,32 @@
           <div class="row">
             <div class="col-xs-12 col-md-3">
               <img src="images/Jaggery.png" alt="Jaggery" class="img-fluid ingredients">
+              <h3>jaggery</h3> <button type="button" class="btn btn-primary jaggeryBTN" data-toggle="modal" data-target="#exampleModal">
+                ?
+              </button>
             </div>
             <div class="col-xs-12 col-md-3">
               <img src="images/Sesame.png" alt="Sesame" class="img-fluid ingredients">
+              <h3>sesame</h3>
             </div>
             <div class="col-xs-12 col-md-3">
               <img src="images/Peanuts.png" alt="Peanuts" class="img-fluid ingredients">
+              <h3>peanuts</h3>
             </div>
             <div class="col-xs-12 col-md-3">
               <img src="images/Amaranth.png" alt="Amaranth" class="img-fluid ingredients">
+              <h3>amaranth</h3>
             </div>
           </div>
         </div>
-        <div class="container text-center pt-4">
-          <div class="row py-5">
-            <div class="col-xs-12 col-md-3">
-              <h3>jaggery</h3>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <h3>sesame</h3>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <h3>peanuts</h3>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <h3>amaranth</h3>
-            </div>
-          </div>
-        </div>
+        <br>
         <!--young entrepreneur-->
         <div class="container-fluid text-center youngEntrpreneur">
           <h2 class="youngH2 pt-4">meet the young entrepreneur</h2>
           <img src="images/mohnish.png" alt="mohnish" class="img-fluid mohnish">
           <p class="youngP">
-              mohnish soni is an 8th grade student at iroquois community school
-              located in des plaines, illinois. he is an energized entrepreneur who
+              Mohnish Soni is an 8th grade student at Iroquois Community School
+              located in Des Plaines, Illinois. he is an energized entrepreneur who
               wants to make snack time healthier, which is why he decided to launch
               chikki bar as a sole-proprietorship business with the help of young
               entrepreneurs academy, which he was enrolled in since the age of 12.
@@ -123,6 +117,34 @@
                 </div>
               </div>
         </div>
+
+<!-- Modal -->
+<div class="modal fade text-center" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">What is Jaggery?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Jaggery is a traditional non-centrifugal cane sugar consumed in South Asia, Southeast
+          Asia and some other countries in Asia and the Americas. It is a concentrated product of
+          cane juice and often date or palm sap without separation of the molasses and crystals,
+          and can vary from golden brown to dark brown in colour. It contains up to 50%
+          sucrose, up to 20% invert sugars, and up to 20% moisture, with the remainder made
+          up of other insoluble matter, such as wood ash, proteins, and bagasse bres. Ancient
+          scriptures on Ayurveda mention various medicinal uses based on method of
+          preparation and age. it is known by various names, including "panela", in other parts
+          of the world.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
         <br>
         <footer class="chikkiFooter">
             <p id="copyRight">© 2019 Chikki Bar &trade;</p> 
