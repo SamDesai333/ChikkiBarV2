@@ -19,7 +19,20 @@ body {
 .jumbotron{
     position: relative;
     margin-bottom: 0px;
-    background-image: url("../images/woodenTable.jpg");
+    background-image: url("../images/ChikkiWallpaper.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+.jumbotronContact{
+    position: relative;
+    margin-bottom: 0px;
+    background-image: url("../images/ChikkiWallpaper2.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +113,15 @@ h1{
     font-size: 45px;
 }
 .mission{
+    padding-left:200px;
+    padding-right:200px;
     color: #EA405C;
+}
+@media screen and (max-width: 600px) { 
+    .mission{
+        padding-left:50px;
+        padding-right:50px;
+    }
 }
 
 .ingredients:hover{
@@ -189,3 +210,7 @@ h1{
     letter-spacing: 1px;
 
 }
+.modal-title{
+    align-items: center;
+}
+
