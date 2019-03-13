@@ -161,14 +161,42 @@ h1{
     color: #fff;
 }
 .youngP{
+    text-align: left;
     color: #fff;
     padding-left:300px;
     padding-right:300px;
 }
 @media screen and (max-width: 800px) { 
     .youngP{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+.yeaImage{
+    height: 400px;
+    width: auto;
+    margin: 30px;
+}
+
+.yeaP{
+    text-align: left;   
+    padding:40px;
+    margin-top: 10px;
+    color: #EA405C;
+
+}
+
+@media screen and (max-width: 800px) { 
+    .yeaImage{
+        height: 200px;
+        width: auto;
+    }
+
+    .yeaP{
+        padding:5px;
+        margin-top: 0;
 
     }
 }
@@ -212,5 +240,10 @@ h1{
 }
 .modal-title{
     align-items: center;
+}
+
+.buybox{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 

@@ -12,6 +12,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--google fonts-->
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <!--aos css-->
+      <link rel="stylesheet" href="css/aos.css">
   </head>
   <body>
     <!--Navbar-->
@@ -40,14 +42,33 @@
       </div>
     </nav>
     <div class="container-fluid text-center youngEntrpreneur">
-      <h2 class="youngH2 pt-4">The Idea</h2>
-      <img src="images/mohnish-updated.png" alt="mohnish" class="img-fluid mohnish">
-      <p class="youngP">
-        Chikki Bar is a concept that originated with a family recipe. Mohnish’s grandmother would make these small bars or sometimes round shaped balls using peanuts, sesame seeds, and jaggery. Mohnish thought this is something everyone would love. Mohnish wanted to learn how to make these so he spent time with Grandmother learning. He was surprised to learn that these snacks were made with so few ingredients that were natural with health benefits. There were no food colorings, no preservatives, and no chemicals. Being a vegetarian all his life, Mohnish has the habit of reading the ingredients label before purchasing anything. He noticed that he had no idea what many of the ingredients on the package were and most of them he couldn’t pronounce. This is what led Mohnish to launch Chikki Bar.
+      <h2 class="youngH2 pt-4" data-aos="fade-down" data-aos-duration="1000">The Idea</h2>
+      <img src="images/mohnish-updated.png" alt="mohnish" class="img-fluid mohnish" data-aos="fade-right" data-aos-duration="1000">
+      <p class="youngP" data-aos="fade-left" data-aos-duration="1000">
+        Chikki Bar is a concept that originated with a family recipe. Mohnish’s grandmother would make these small bars or
+        sometimes round shaped balls using peanuts, sesame seeds, and jaggery. Mohnish thought this is something everyone would
+        love. Mohnish wanted to learn how to make these so he spent time with Grandmother learning. He was surprised to learn
+        that these snacks were made with so few ingredients that were natural with health benefits. There were no food
+        colorings, no preservatives, and no chemicals. Being a vegetarian all his life, Mohnish has the habit of reading the
+        ingredients label before purchasing anything. He noticed that he had no idea what many of the ingredients on the package
+        were and most of them he couldn’t pronounce. This is what led Mohnish to launch Chikki Bar.
       </p>
         <br>
     </div>
-    
+    <div class="container-fluid YEA text-center">
+      <div class="row">
+        <div class="col-xs-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/YEA.jpg" alt="yea" class="yeaImage">
+        </div>
+        <div class="col-xs-12 col-md-6 text-center" data-aos="fade-left" data-aos-duration="1000">
+          <h5 class="yeaP">ChikkiBar was started up with the help of the Young Entrepreneur's Academy. Since the age of 12,
+            Mohnish has been learning how to start with an idea, create a business plan, and launch Chikk Bar. Through the YEA,
+            over 7,700 students have launched more than 5,100 real businesses and non-profits. 
+          </h5>
+          <button type="button" class="btn btn-primary btn-lg youngButton" onclick="location.href='https://yeausa.org/students/why-yea/';" >LEARN MORE</button>          
+        </div> 
+      </div>     
+    </div>    
     
     
     <footer class="chikkiFooter">
@@ -61,6 +82,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!--aos js-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
   
 </html>
