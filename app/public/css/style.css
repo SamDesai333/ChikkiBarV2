@@ -7,89 +7,33 @@ body {
 /*
 *NavBar Image Hover
 */
-.slider{
+.slider {
     -webkit-transition: 0.1s ease;
 }
-.slider:hover{
+.slider:hover {
     transform: scale(1.1);
 }
 /*
 *Jumbotron
 */
 .jumbotron{
-    position: relative;
-    margin-bottom: 0px;
-    background-image: url("../images/ChikkiWallpaper.jpg");
+    background-image: url("../images/ChikkiWall3.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    left: 0;
+    height: 450px;
 }
 .jumbotronContact{
-    position: relative;
-    margin-bottom: 0px;
     background-image: url("../images/ChikkiWallpaper2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    left: 0;
+    height: 700px;
+
 }
 .jumboHR{
     width: 100px;
 }
-#carousel{
-    height: 100px;
-}
-.btn-lg{
-    background-color: #00B3D6;
-    border-color: #00B3D6;
-    position: relative;
-    text-align: center;
-    display:block;
-    margin: 0 auto;
-
-}
-.btn-md{
-    background-color: #00B3D6;
-    border-color: #00B3D6;
-    position: relative;
-    /* text-align: center; */
-    display:block;
-    margin: 0 auto;
-
-}
-.jaggeryBTN{
-    border: white;
-    background-color: white;
-    color: black;
-}
-.jaggeryBTN:hover{
-    background-color: #ADD057;
-    border-color: #ADD057
-}
-.btn-lg:hover{
-    background-color: #ADD057;
-    border-color: #ADD057
-}
-.btn-md:hover{
-    background-color: #ADD057;
-    border-color: #ADD057
-}
-@media screen and (max-width: 1024px) { 
-    .jumbotron {
-      left: 50%;
-      margin-left: -512px;   /* 50% */
-    }
-  }
-
 .logo{
     display: block;
     margin: 0 auto;
@@ -101,14 +45,52 @@ body {
 .logo:hover{
     transform: scale(1.1);
 }
-
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 500px) { 
     .logo{
-        padding-top: 140px;
-        width: 400px;
+        padding-top: 50px;
+        width: 300px;
         height: auto;
     }
 }
+.btn-lg{
+    background-color: #00B3D6;
+    border-color: #00B3D6;
+    position: relative;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+
+}
+.jumboBtn{
+    margin-top: 20%;
+}
+.btn-lg:hover{
+    background-color: #ADD057;
+    border-color: #ADD057
+}
+.btn-md{
+    background-color: #00B3D6;
+    border-color: #00B3D6;
+    position: relative;
+    /* text-align: center; */
+    display:block;
+    margin: 0 auto;
+
+}
+.btn-md:hover{
+    background-color: #ADD057;
+    border-color: #ADD057
+}
+.jaggeryBTN{
+    border: white;
+    background-color: white;
+    color: black;
+}
+.jaggeryBTN:hover{
+    background-color: #ADD057;
+    border-color: #ADD057
+}
+
 h1{
     font-size: 45px;
 }
@@ -117,7 +99,7 @@ h1{
     padding-right:200px;
     color: #EA405C;
 }
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 500px) { 
     .mission{
         padding-left:50px;
         padding-right:50px;
@@ -129,6 +111,9 @@ h1{
 }
 .ingredients{
     -webkit-transition: 0.1s ease;
+}
+#jaggeryP{
+    color: #EA405C;
 }
 /*
 *Paralax
@@ -142,6 +127,7 @@ h1{
     background-size: cover;
 
 }
+
 /*
 *Young
 */
@@ -174,19 +160,109 @@ h1{
     }
 }
 
+
+.yeaH2{
+    margin-top: 10%;
+}
 .yeaImage{
-    height: 400px;
+    height: 300px;
     width: auto;
     margin: 30px;
 }
-
 .yeaP{
     text-align: left;   
     padding:40px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #EA405C;
-
 }
+#newsH2{
+    color: #fff;
+}
+.newspaper{
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+}
+.certificate{
+    width:400px;
+    height: auto;
+    margin-top: 15%;
+    cursor: pointer;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  .modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .close:hover,
+    .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .close2:hover,
+    .close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    @media only screen and (max-width: 700px){
+        .modal-content {
+          width: 100%;
+        }
+    }
+
+
 
 @media screen and (max-width: 800px) { 
     .yeaImage{
@@ -194,12 +270,16 @@ h1{
         width: auto;
     }
 
+}
+@media screen and (max-width: 800px) { 
+
     .yeaP{
         padding:5px;
         margin-top: 0;
 
     }
 }
+
 
 /*
 *Variety
@@ -245,5 +325,14 @@ h1{
 .buybox{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.business:hover{
+    transform: scale(1.1);
+}
+.business{
+    height: 200px;
+    width:200px;
+    -webkit-transition: 0.1s ease;
 }
 
