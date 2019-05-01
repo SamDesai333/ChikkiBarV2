@@ -64,6 +64,11 @@ body {
 .jumboBtn{
     margin-top: 20%;
 }
+@media screen and (max-width: 500px) { 
+    .jumboBtn{
+        margin-top: 40%;
+    }
+}
 .btn-lg:hover{
     background-color: #ADD057;
     border-color: #ADD057
@@ -183,12 +188,19 @@ h1{
     height: auto;
     cursor: pointer;
 }
-.certificate{
-    width:400px;
-    height: auto;
-    margin-top: 15%;
+.award{
+    height: 400px;
+    margin: 10px;
+    width: auto;
     cursor: pointer;
 }
+@media screen and (max-width: 500px) { 
+    .award{
+        width: 300px;
+        height: auto;
+    }
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -202,7 +214,7 @@ h1{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   }
-  .modal-content {
+.modal-content {
     margin: auto;
     display: block;
     width: 80%;
